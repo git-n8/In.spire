@@ -1,8 +1,8 @@
 #Directories
 
 .vs/
-bin/
-int/
+_bin/
+_obj/
 
 #Files
 
