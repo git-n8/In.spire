@@ -17,6 +17,9 @@ workspace "In.spire"
 
         targetdir ("_bin/" .. outputdir .. "/%{prj.name}")
         objdir ("_obj/" .. outputdir .. "/%{prj.name}")
+        
+        pchheader "inpch.h"
+        pchsource "In.spire/src/inpch.cpp"
 
         files
         {
