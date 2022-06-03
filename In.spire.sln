@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "In.spire", "In.spire\In.spire.vcxproj", "{2DA0AC61-196D-076D-4286-F5142EB23CFB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SandboxClient", "SandboxClient\SandboxClient.vcxproj", "{93B19A58-FF71-168F-C8AC-5F0C342C5B6B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SandboxServer", "SandboxServer\SandboxServer.vcxproj", "{ABC6737D-1787-EFB3-E0C1-38314C413490}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -16,6 +20,18 @@ Global
 		{2DA0AC61-196D-076D-4286-F5142EB23CFB}.Dist|x64.Build.0 = Dist|x64
 		{2DA0AC61-196D-076D-4286-F5142EB23CFB}.Release|x64.ActiveCfg = Release|x64
 		{2DA0AC61-196D-076D-4286-F5142EB23CFB}.Release|x64.Build.0 = Release|x64
+		{93B19A58-FF71-168F-C8AC-5F0C342C5B6B}.Debug|x64.ActiveCfg = Debug|x64
+		{93B19A58-FF71-168F-C8AC-5F0C342C5B6B}.Debug|x64.Build.0 = Debug|x64
+		{93B19A58-FF71-168F-C8AC-5F0C342C5B6B}.Dist|x64.ActiveCfg = Dist|x64
+		{93B19A58-FF71-168F-C8AC-5F0C342C5B6B}.Dist|x64.Build.0 = Dist|x64
+		{93B19A58-FF71-168F-C8AC-5F0C342C5B6B}.Release|x64.ActiveCfg = Release|x64
+		{93B19A58-FF71-168F-C8AC-5F0C342C5B6B}.Release|x64.Build.0 = Release|x64
+		{ABC6737D-1787-EFB3-E0C1-38314C413490}.Debug|x64.ActiveCfg = Debug|x64
+		{ABC6737D-1787-EFB3-E0C1-38314C413490}.Debug|x64.Build.0 = Debug|x64
+		{ABC6737D-1787-EFB3-E0C1-38314C413490}.Dist|x64.ActiveCfg = Dist|x64
+		{ABC6737D-1787-EFB3-E0C1-38314C413490}.Dist|x64.Build.0 = Dist|x64
+		{ABC6737D-1787-EFB3-E0C1-38314C413490}.Release|x64.ActiveCfg = Release|x64
+		{ABC6737D-1787-EFB3-E0C1-38314C413490}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

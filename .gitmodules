@@ -4,3 +4,6 @@
 [submodule "thirdparty/librdkafka"]
 	path = thirdparty/librdkafka
 	url = https://github.com/edenhill/librdkafka.git
+[submodule "thirdparty/asio"]
+	path = thirdparty/asio
+	url = https://github.com/chriskohlhoff/asio.git
